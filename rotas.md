@@ -1,9 +1,9 @@
 # Rotas para acessar a aplicacão
 
-- Create Livro
+###Create Livro
  (http://localhost:3000/livro)
 
-# Exemplo:
+###Exemplo:
 - Body da requisição
 ~~~JSON
 {
@@ -15,21 +15,22 @@
 ~~~
 
 
--List livros
+###List livros
 (http://localhost:3000/livros)
 
--Update Livros
+###Update Livros
 (http://localhost:3000/livro/{id})
 
 #Exemplo:
 -body da requisição
-
+~~~JSON
 {
 "titulo": "Flash",
 "autor": "Dc Comics",
 "qtdPagina": "200",
 "anoDePublicacao": "2010"
 }
+~~~
 
--Deleta livro
+###Deleta livro
 (http://localhost:3000/livro/{id})
