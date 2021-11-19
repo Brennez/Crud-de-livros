@@ -1,16 +1,19 @@
-#Rotas para acessar a aplicacão
+# Rotas para acessar a aplicacão
 
--Create Livro
-(http://localhost:3000/livro)
+- Create Livro
+ (http://localhost:3000/livro)
 
-#Exemplo:
--Body da requisição
+# Exemplo:
+- Body da requisição
+~~~JSON
 {
 "titulo": "Branca de neve",
 "autor": "Disney",
 "qtdPagina": "100",
 "anoDePublicacao": "2009"
 }
+~~~
+
 
 -List livros
 (http://localhost:3000/livros)
