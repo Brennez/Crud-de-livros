@@ -1,5 +1,5 @@
 # crud-de-livros
-- CRUD de livros, desenvolvido para o desafio de monitoria na disciplina de programação III Bloco IV
+- API de CRUD de livros, desenvolvido para o desafio de monitoria na disciplina de programação III Bloco IV
 
 # Tecnologias 
 - NodeJS
